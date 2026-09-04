@@ -1,0 +1,68 @@
+# ==========================================
+# 🔐 SEGURANÇA E AMBIENTE LOCAL (CRÍTICO)
+# ==========================================
+# Nunca subir arquivos de credenciais ou tokens (TMDB, AWS, etc.)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ==========================================
+# ⚛️ NODE.JS & ECOSSISTEMA FRONT-END/BACK-END
+# ==========================================
+# Dependências instaladas (ocupam muito espaço)
+node_modules/
+jspm_packages/
+
+# Arquivos de logs do NPM/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Pastas de Build e Saída (Vite, Next.js, etc.)
+dist/
+build/
+.next/
+out/
+.turbo/
+
+# ==========================================
+# 📱 MOBILE & ANDROID STUDIO (DISCIPLINA 05)
+# ==========================================
+# Arquivos gerados pelo Android Studio / Gradle
+.gradle/
+/local.properties
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+*.iml
+*.apk
+*.aar
+*.ap_
+
+# Arquivos do Flutter / React Native locais
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# ==========================================
+# 🐧 SISTEMA OPERACIONAL (LINUX UBUNTU)
+# ==========================================
+# Arquivos ocultos e temporários do sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
