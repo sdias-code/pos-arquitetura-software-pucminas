@@ -1,0 +1,25 @@
+.moviesContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.moviesContainer h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.moviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Espaço entre os cards */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* Remove as bolinhas da <ul> */
+}
